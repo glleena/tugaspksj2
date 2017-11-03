@@ -117,9 +117,9 @@ WPScan dapat diunduh pada link berikut (https://github.com/wpscanteam/wpscan/zip
 #### Uji Sql Injection dengan Wpscan
 
 Pada tahap ini, kami melakukan sebuah skenario uji sql injection, yaitu :
-1. Memindai semua vulnability yang terdapat dalam wordpress plugin yang telah di install
+Memindai semua vulnerability yang terdapat dalam wordpress plugin yang telah di install
 
--  Menggunakan *Wpscan* untuk melakukan pindai yang terdapat vulnability dalam wordpress plugin dengan cara :
+-  Menggunakan *Wpscan* untuk melakukan pindai yang terdapat vulnerability dalam wordpress plugin dengan cara :
 ruby wpscan.rb -u 10.151.36.166/wordpress --enumerate vp
 
 akan menghasilkan
